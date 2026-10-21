@@ -53,5 +53,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   physical panel, which would have made every scroll distance wrong on scaled
   displays.
 
-[Unreleased]: https://github.com/YOURNAME/droidmcp/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/YOURNAME/droidmcp/releases/tag/v0.1.0
+[Unreleased]: https://github.com/846572691/droidmcp/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/846572691/droidmcp/releases/tag/v0.1.0

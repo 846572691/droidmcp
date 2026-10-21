@@ -33,9 +33,9 @@ dev = ["pytest>=7"]
 droidmcp = "droidmcp.__main__:main"
 
 [project.urls]
-Homepage = "https://github.com/YOURNAME/droidmcp"
-Issues = "https://github.com/YOURNAME/droidmcp/issues"
-Changelog = "https://github.com/YOURNAME/droidmcp/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/846572691/droidmcp"
+Issues = "https://github.com/846572691/droidmcp/issues"
+Changelog = "https://github.com/846572691/droidmcp/blob/main/CHANGELOG.md"
 
 [tool.setuptools]
 packages = ["droidmcp"]

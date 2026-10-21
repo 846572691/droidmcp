@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "droidmcp"
+version = "0.1.0"
+description = "MCP server that lets AI assistants read and control an Android device over adb"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["mcp", "android", "adb", "llm", "automation", "agent", "claude", "model-context-protocol"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Testing",
+    "Topic :: System :: Systems Administration",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+droidmcp = "droidmcp.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/YOURNAME/droidmcp"
+Issues = "https://github.com/YOURNAME/droidmcp/issues"
+Changelog = "https://github.com/YOURNAME/droidmcp/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+packages = ["droidmcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
